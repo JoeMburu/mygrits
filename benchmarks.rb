@@ -121,7 +121,14 @@ def in_temp_dir(remove_after = true)
     yield tmp_path
   end
   puts tmp_path
-  #FileUtils.rm_r(tmp_path) if remove_after
+  #FileUtils.rm_r(tmp_path) if remove_after  
+  
+end
+
+def my_group
+	puts "me"
+	print "me"
+
 end
 
 main()
