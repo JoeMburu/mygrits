@@ -128,7 +128,10 @@ end
 def my_group
 	puts "me"
 	print "me"
-
+	puts "me"
+	print "me"
+	puts "me"
+	print "me"
 end
 
 main()
